@@ -43,10 +43,6 @@ header {
     text-align: center;
 }
 
-.nav__item {
-    margin-right: 1em;
-}
-
 .nav__link {
     color: #fff;
     text-decoration: none;
@@ -68,12 +64,16 @@ header {
 }
 
 .main {
-    padding-top: 1em;
     padding-bottom: 1em;
+    margin-top: 2em;
 }
 
 .mission {
-    text-align:start;
+    margin-top: -4em;
+}
+
+.mission h2 {
+    text-align: center;
 }
 
 .sidebar {
@@ -88,18 +88,24 @@ header {
 }
 
 .human {
-    background-color: skyblue;
+    background-color: rgb(92, 158, 184);
+    color: #fff;
 }
 
 .bird {
     background-color: darkgray;
+    color: #fff;
 }
 
 @media (min-width: 800px) {
     .nav__list {
         display: flex;
+        justify-content: flex-end;
     }
 
+    .nav__item {
+        padding-left: 1em;
+    }
     .row {
         display: flex;
     }
@@ -122,6 +128,6 @@ header {
     }
 
     .mission {
-        padding-right: 1em;
+        padding-right: 2em;
      }
 }
