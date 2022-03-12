@@ -59,8 +59,8 @@ header {
 
 .hero-text {
     color:#fff;
-    text-align: right;
     padding-right: .75em;
+    text-align: center;
 }
 
 .main {
@@ -74,6 +74,7 @@ header {
 
 .mission h2 {
     text-align: center;
+    color: rgb(92, 158, 184);
 }
 
 .sidebar {
@@ -123,7 +124,6 @@ header {
     }
 
     .hero-text {
-        text-align: center;
         font-size: 3rem;
     }
 
